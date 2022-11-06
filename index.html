@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/icon-fonts.css">
+</head>
+<body>
+    
+    <div class="_container">
+        <div class="sidebar">
+            <div class="sidebar__logo">
+                <a href="./index.html">
+                    <img src="./img/svg/logo.svg" alt="Logo"><span class="sidebar__span">v.01</span>
+                </a>
+            </div>
+
+            <ul class="sidebar__list">
+                <li class="sidebar__item">
+                    <span>
+                        <svg class="icon" id="dashboard">
+                            <use xlink:href="img/svg/sprite.svg#dashboard"></use>
+                        </svg>
+                        Dashboard
+                    </span>
+                    <svg class="icon-arrow">
+                        <use xlink:href="img/svg/sprite.svg#arrow"></use>
+                    </svg>
+                </li>
+                <li class="sidebar__item">
+                    <span>
+                        <svg class="icon" id="product">
+                            <use xlink:href="img/svg/sprite.svg#product"></use>
+                        </svg>
+                        Product
+                    </span>
+                    <svg class="icon-arrow">
+                        <use xlink:href="img/svg/sprite.svg#arrow"></use>
+                    </svg>
+                </li>
+                <li class="sidebar__item active">
+                    <span>
+                        <svg class="icon" id="user">
+                            <use xlink:href="img/svg/sprite.svg#user"></use>
+                        </svg>
+                        Customers
+                    </span>
+                    <svg class="icon-arrow">
+                        <use xlink:href="img/svg/sprite.svg#arrow"></use>
+                    </svg>
+                </li>
+                <li class="sidebar__item">
+                    <span>
+                        <svg class="icon" id="income">
+                            <use xlink:href="img/svg/sprite.svg#income"></use>
+                        </svg>
+                        Income
+                    </span>
+                    <svg class="icon-arrow">
+                        <use xlink:href="img/svg/sprite.svg#arrow"></use>
+                    </svg>
+                </li>
+                <li class="sidebar__item">
+                    <span>
+                        <svg class="icon" id="promote">
+                            <use xlink:href="img/svg/sprite.svg#promote"></use>
+                        </svg>
+                        Promote
+                    </span>
+                    <svg class="icon-arrow">
+                        <use xlink:href="img/svg/sprite.svg#arrow"></use>
+                    </svg>
+                </li>
+                <li class="sidebar__item">
+                    <span>
+                        <svg class="icon" id="help">
+                            <use xlink:href="img/svg/sprite.svg#help"></use>
+                        </svg>
+                        Help
+                    </span>
+                    <svg class="icon-arrow">
+                        <use xlink:href="img/svg/sprite.svg#arrow"></use>
+                    </svg>
+                </li>
+            </ul>
+
+            <div class="sidebar__user sidebar-user">
+                <div class="sidebar-user__img">
+                    <img src="./img/user.png" alt="User">
+                </div>
+                <div class="sidebar-user__info">
+                    <div class="sidebar-user__name">Evano</div>
+                    <div class="sidebar-user__profession">Project Manager</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="customers">
+            <h1 class="__title">Hello Evano 👋🏼,</h1>
+            <div class="customers__wrapper customers-wrapper">
+                <div class="customers-wrapper__header">
+                    <div class="customers-wrapper__title-block">
+                        <div class="customers-wrapper__title">All Customers</div>
+                        <div class="customers-wrapper__subtitle">Active Members</div>
+                    </div>
+
+                    <div class="customers-wrapper__search">
+                        <button class="customers-wrapper__brn">
+                            <svg class="icon" id="search">
+                                <use xlink:href="img/svg/sprite.svg#search"></use>
+                            </svg>
+                        </button>
+                        <input type="text" placeholder="Search">
+                    </div>
+                </div>
+
+                <div class="customers-wrapper__inner">
+                    <div class="customers-wrapper__labels customers-wrapper-labels">
+                        <div class="customers-wrapper-labels__item name">Customer Name</div>
+                        <div class="customers-wrapper-labels__item company">Company</div>
+                        <div class="customers-wrapper-labels__item phone">Phone Number</div>
+                        <div class="customers-wrapper-labels__item email">Email</div>
+                        <div class="customers-wrapper-labels__item country">Country</div>
+                        <div class="customers-wrapper-labels__item status">Status</div>
+                    </div>
+                    <div class="customers-wrapper__list customers-wrapper-list">
+                        <div class="customers-wrapper-list__item">
+                            <div class="customers-wrapper-list__name">Jane Cooper</div>
+                            <div class="customers-wrapper-list__company">Microsoft</div>
+                            <div class="customers-wrapper-list__phone"><a href="tel:2255550118">(225) 555-0118</a></div>
+                            <div class="customers-wrapper-list__email"><a href="#">jane@microsoft.com</a></div>
+                            <div class="customers-wrapper-list__country">United States</div>
+                            <div class="customers-wrapper-list__status active">Active</div>
+                        </div>
+                        <div class="customers-wrapper-list__item">
+                            <div class="customers-wrapper-list__name">Floyd Miles</div>
+                            <div class="customers-wrapper-list__company">Yahoo</div>
+                            <div class="customers-wrapper-list__phone"><a href="tel:2055550100">(205) 555-0100</a></div>
+                            <div class="customers-wrapper-list__email"><a href="#">floyd@yahoo.com</a></div>
+                            <div class="customers-wrapper-list__country">Kiribati</div>
+                            <div class="customers-wrapper-list__status inactive">Inactive</div>
+                        </div>
+                        <div class="customers-wrapper-list__item">
+                            <div class="customers-wrapper-list__name">Ronald Richards</div>
+                            <div class="customers-wrapper-list__company">Adobe</div>
+                            <div class="customers-wrapper-list__phone"><a href="tel:3025550107">(302) 555-0107</a></div>
+                            <div class="customers-wrapper-list__email"><a href="#">ronald@adobe.com</a></div>
+                            <div class="customers-wrapper-list__country">Israel</div>
+                            <div class="customers-wrapper-list__status inactive">Inactive</div>
+                        </div>
+                        <div class="customers-wrapper-list__item">
+                            <div class="customers-wrapper-list__name">Marvin McKinney</div>
+                            <div class="customers-wrapper-list__company">Tesla</div>
+                            <div class="customers-wrapper-list__phone"><a href="tel:2525550126">(252) 555-0126</a></div>
+                            <div class="customers-wrapper-list__email"><a href="#">marvin@tesla.com</a></div>
+                            <div class="customers-wrapper-list__country">Iran</div>
+                            <div class="customers-wrapper-list__status active">Active</div>
+                        </div>
+                        <div class="customers-wrapper-list__item">
+                            <div class="customers-wrapper-list__name">Jerome Bell</div>
+                            <div class="customers-wrapper-list__company">Google</div>
+                            <div class="customers-wrapper-list__phone"><a href="tel:6295550129">(629) 555-0129</a></div>
+                            <div class="customers-wrapper-list__email"><a href="#">jerome@google.com</a></div>
+                            <div class="customers-wrapper-list__country">Réunion</div>
+                            <div class="customers-wrapper-list__status active">Active</div>
+                        </div>
+                        <div class="customers-wrapper-list__item">
+                            <div class="customers-wrapper-list__name">Kathryn Murphy</div>
+                            <div class="customers-wrapper-list__company">Microsoft</div>
+                            <div class="customers-wrapper-list__phone"><a href="tel:6295550129">(406) 555-0120</a></div>
+                            <div class="customers-wrapper-list__email"><a href="#">kathryn@microsoft.com</a></div>
+                            <div class="customers-wrapper-list__country">Curaçao</div>
+                            <div class="customers-wrapper-list__status active">Active</div>
+                        </div>
+                        <div class="customers-wrapper-list__item">
+                            <div class="customers-wrapper-list__name">Jacob Jones</div>
+                            <div class="customers-wrapper-list__company">Yahoo</div>
+                            <div class="customers-wrapper-list__phone"><a href="tel:2085550112">(208) 555-0112</a></div>
+                            <div class="customers-wrapper-list__email"><a href="#">jacob@yahoo.com</a></div>
+                            <div class="customers-wrapper-list__country">Brazil</div>
+                            <div class="customers-wrapper-list__status active">Active</div>
+                        </div>
+                        <div class="customers-wrapper-list__item">
+                            <div class="customers-wrapper-list__name">Kristin Watson</div>
+                            <div class="customers-wrapper-list__company">Facebook</div>
+                            <div class="customers-wrapper-list__phone"><a href="tel:7045550127">(704) 555-0127</a></div>
+                            <div class="customers-wrapper-list__email"><a href="#">kristin@facebook.com</a></div>
+                            <div class="customers-wrapper-list__country">Åland Islands</div>
+                            <div class="customers-wrapper-list__status inactive">Inactive</div>
+                        </div>
+                    </div>
+                    <div class="customers-wrapper__footer customers-wrapper-footer">
+                        <div class="customers-wrapper-footer__info">Showing data 1 to <span class="length">8</span> of  <span class="all-length">256</span>K entries</div>
+                        <div class="customers-wrapper-footer__paging paging">
+                            <a href="#" class="paging__arrow left">
+                                <svg class="icon-arrow">
+                                    <use xlink:href="img/svg/sprite.svg#arrow"></use>
+                                </svg>  
+                            </a>
+                            <div class="paging__list">
+                                <li class="paging__item"><a href="" class="paging__link active">1</a></li>
+                                <li class="paging__item"><a href="" class="paging__link">2</a></li>
+                                <li class="paging__item"><a href="" class="paging__link">3</a></li>
+                                <li class="paging__item">...</li>
+                                <li class="paging__item"><a href="" class="paging__link">40</a></li>
+                            </div>
+                            <a href="#" class="paging__arrow rigth">
+                                <svg class="icon-arrow">
+                                    <use xlink:href="img/svg/sprite.svg#arrow"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
